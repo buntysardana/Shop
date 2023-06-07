@@ -1,0 +1,12 @@
+@media screen and (max-width: 992px) {
+    .left {
+      display: none !important;
+    }
+  }
+  .container {
+    /* background-color: orange; */
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }

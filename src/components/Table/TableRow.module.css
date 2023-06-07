@@ -1,0 +1,13 @@
+@media only screen and (max-width: 925px) {
+    .font {
+        font-size: 12px !important;
+        /* background-color: black; */
+    }
+
+    .iconSize {
+        width: 12px !important;
+        height: 12px !important;
+        align-self: center;
+    }
+}
+

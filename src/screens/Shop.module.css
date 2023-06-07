@@ -1,0 +1,22 @@
+@media screen and (max-width:576px){
+   .width_xsm_100{
+    width: 100%;
+   }
+}
+@media only screen and (max-width: 767px) {
+    .left{
+        display: none !important;
+    }
+
+}
+@media screen and (max-width:992px){
+    .saleInTopThree{
+        display: none !important;
+    }
+}
+@media screen and (min-width:992px){
+    .saleInTopThreeBottom{
+        display: none !important;
+    }
+
+}

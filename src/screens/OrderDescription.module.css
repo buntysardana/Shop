@@ -1,0 +1,11 @@
+@media only screen and (max-width: 767px) {
+    .left{
+        display: none !important;
+    }
+
+}
+@media screen and (max-width:992px){
+    .btn_width{
+        width: "fit-content";
+    }
+}

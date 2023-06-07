@@ -1,0 +1,56 @@
+.verticalLines {
+    width: 2px;
+    height: 100%;
+    background-color: black
+}
+
+.cardParent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.headingCard {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rowCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}
+
+@media screen and (max-width:992px) {
+    .saleInTopThree {
+        display: none !important;
+    }
+
+    .left {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .saleInTopThreeBottom {
+        display: none !important;
+    }
+
+    .mediumTable {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .table {
+        display: none !important;
+    }
+
+}
+

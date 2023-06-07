@@ -1,0 +1,10 @@
+
+
+.hoverable:hover {
+    cursor: pointer; /* Change the cursor style to pointer on hover */
+    background-color: aquamarine;
+  }
+
+.color{
+    color: red;
+}

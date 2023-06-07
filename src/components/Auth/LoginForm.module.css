@@ -1,0 +1,20 @@
+.parent {
+    width: 60%;
+}
+
+.dotContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+
+.dot{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius:50%;
+    display: inline-block
+}
